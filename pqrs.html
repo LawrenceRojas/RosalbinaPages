@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PQRS - Rosalbina</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-seedling"></i> Rosalbina - Recetas con tradición</h1>
+    <nav>
+      <table class="nav-bar">
+        <tr>
+          <td><a href="index.html"><i class="fas fa-home"></i> Inicio</a></td>
+          <td><a href="recetas.html"><i class="fas fa-utensils"></i> Recetas</a></td>
+          <td><a href="pqrs.html"><i class="fas fa-envelope-open-text"></i> PQRS</a></td>
+          <td><a href="Quienes-somos.html"><i class="fas fa-users"></i> ¿Quiénes somos?</a></td>
+        </tr>
+      </table>
+    </nav>
+  </header>
+
+  <main>
+    <h2><i class="fas fa-envelope"></i> Peticiones, Quejas, Reclamos y Sugerencias</h2>
+
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="tipo">Tipo de mensaje:</label>
+      <select id="tipo" name="tipo" required>
+        <option value="peticion">Petición</option>
+        <option value="queja">Queja</option>
+        <option value="reclamo">Reclamo</option>
+        <option value="sugerencia">Sugerencia</option>
+      </select>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="2" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+      <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+    </form>
+    <h2> ___________________________________________________</h2>
+
+    <section class="contacto">
+      <h3><i class="fas fa-lightbulb"></i> Sugerencias comunes</h3>
+      <ul>
+        <li><i class="fas fa-tachometer-alt"></i> La página se carga lentamente o tiene bajo rendimiento.</li>
+        <li><i class="fas fa-exclamation-triangle"></i> Hay contenido inapropiado o erróneo en alguna receta.</li>
+        <li><i class="fas fa-bug"></i> Se encontraron errores visuales o de navegación.</li>
+        <li><i class="fas fa-mobile-alt"></i> Problemas de compatibilidad en dispositivos móviles.</li>
+        <li><i class="fas fa-comments"></i> Sugerencias sobre nuevas recetas o mejoras en la estructura.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rosalbina. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+/* estilos.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #faf5ef;
+  color: #333;
+}
+
+header {
+  background-color: #8b5e3c;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.nav-bar {
+  width: 100%;
+  text-align: center;
+  background-color: #a97455;
+  border-collapse: collapse;
+}
+
+.nav-bar td {
+  padding: 0.75rem 1.5rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-bar a:hover {
+  color: #ffe8c2;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.introduccion, .mision-vision, .contacto {
+  background-color: #fff;
+  border: 2px solid #d4b59e;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.mision-vision {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.columna {
+  flex: 1;
+  background-color: #f9efe6;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #d4b59e;
+}
+
+.contacto a {
+  color: #8b5e3c;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.contacto a:hover {
+  color: #b67f52;
+}
+
+footer {
+  background-color: #8b5e3c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.receta, .curiosidad {
+  border: 2px solid #d4b59e;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #fff8f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.receta:hover, .curiosidad:hover {
+  transform: scale(1.02);
+}
+
+.receta img, .curiosidad img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.boton-ver-mas {
+  display: inline-block;
+  background-color: #8b5e3c;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.boton-ver-mas:hover {
+  background-color: #a97455;
+}
+
+.boton-volver {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.boton-volver a {
+  display: inline-block;
+  background-color: #8b5e3c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.boton-volver a:hover {
+  background-color: #a97455;
+}
+
+.boton-volver i {
+  margin-right: 0.5rem;
+}
